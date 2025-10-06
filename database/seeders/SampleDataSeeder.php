@@ -15,10 +15,13 @@ class SampleDataSeeder extends Seeder
     public function run(): void
     {
         // Create sample kelas
-        $kelasTK = Kelas::create(['nama_kelas' => 'TK A']);
-        $kelas1 = Kelas::create(['nama_kelas' => '1A']);
-        $kelas2 = Kelas::create(['nama_kelas' => '4B']);
-        $kelas3 = Kelas::create(['nama_kelas' => '6A']);
+        $kelasTK = Kelas::create(['nama_kelas' => 'TK']);
+        $kelas1 = Kelas::create(['nama_kelas' => '1']);
+        $kelas2 = Kelas::create(['nama_kelas' => '2']);
+        $kelas3 = Kelas::create(['nama_kelas' => '3']);
+        $kelas4 = Kelas::create(['nama_kelas' => '4']);
+        $kelas5 = Kelas::create(['nama_kelas' => '5']);
+        $kelas6 = Kelas::create(['nama_kelas' => '6']);
         
         // Create sample orang tua
         $ortu1 = User::create([
